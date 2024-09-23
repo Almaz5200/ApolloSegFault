@@ -64,7 +64,7 @@ struct SwiftScript: ParsableCommand {
                 input: ApolloCodegenConfiguration.FileInput(
                     schemaPath: "\(projectRoot)/schema.graphqls",
                     operationSearchPaths: [
-                        "\(SourceRootURL.path)/**/*.graphql"
+                        "\(SourceRootURL.path)/Menu.graphql"
                     ]),
                 output: ApolloCodegenConfiguration.FileOutput(
                     schemaTypes: ApolloCodegenConfiguration.SchemaTypesFileOutput(
